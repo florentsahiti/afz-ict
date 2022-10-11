@@ -1,3 +1,5 @@
+
+
 :root{
     --mount-meadow: #1bbc9c;
     --white-smoke: #f0f0f0;
@@ -528,7 +530,30 @@ section{
 }
 
 
+@media screen and (max-width: 268px){
+    .nav-link{
+        color: black;
+        
+    }
 
+    .logoja{
+        filter:  brightness(0.25);
+    }
+    
+}
+
+
+@media screen and (max-width: 991px){
+    .nav-link{
+        color: black;
+        
+    }
+
+    .logoja{
+        filter:  brightness(0.25);
+    }
+    
+}
 
 
 
@@ -540,6 +565,10 @@ section{
 /* #### Media Queries #### */
 
 @media screen and (min-width: 768px){
+
+    
+    
+
     .detail .row{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -569,6 +598,7 @@ section{
         grid-template-columns: repeat(2, 1fr);
         gap: 2rem;
     }
+
     .pricing-item{
         margin: 0;
     }
@@ -585,6 +615,14 @@ section{
     .contact-right > div:first-child{
         margin-top: 0;
     }
+
+    .nav-link{
+        color: black;
+    }
+    
+
+
+
 }
 
 @media screen and (min-width: 992px){
