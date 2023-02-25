@@ -41,7 +41,7 @@ button{
 
 .fotoja1{
     /* filter: grayscale(1); */
-    filter: brightness(0.1);
+    /* filter: brightness(0.1); */
 
 }
 .container{
@@ -506,7 +506,7 @@ section{
     background-color: black ;
     color: var(--white-smoke);
     padding: 2rem 0;
-    height: 50vh;
+    height: 20vh;
 }
 .footer .text{
     opacity: 0.8;
@@ -536,9 +536,9 @@ section{
         
     }
 
-    .logoja{
+    /* .logoja{
         filter:  brightness(0.25);
-    }
+    } */
     
 }
 
@@ -549,9 +549,22 @@ section{
         
     }
 
-    .logoja{
+    
+    
+    /* .logoja{
         filter:  brightness(0.25);
+    } */
+    
+}
+
+@media screen and (max-width: 1000px){
+    .logoja{
+        margin-top: 00;
     }
+
+    
+   
+   
     
 }
 
@@ -670,13 +683,13 @@ section{
         -moz-box-shadow: 0 2px 5px 0 rgba(207, 205, 207, 0.3);
         box-shadow: 0 2px 5px 0 rgba(207, 205, 207, 0.3);
         margin-top: 0;
-        background: rgb(27, 23, 23);
+        background: rgb(255, 255, 255);
     }
     .cng-navbar .navbar-brand{
         color: var(--night-rider);
     }
     .cng-navbar .nav-link{
-        color: white
+        color: rgb(126, 96, 96)
     }
     .feature .row{
         display: grid;
