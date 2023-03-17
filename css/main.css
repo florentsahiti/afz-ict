@@ -53,7 +53,7 @@ h1,  h3, h4, h5, h6{
     margin: 0.6rem 0;
     line-height: 1.25;
     font-weight: 400;
-    text-transform: capitalize;
+    /* text-transform: capitalize; */
 }
 h2{
     margin: 0.6rem 0;
@@ -353,6 +353,7 @@ section{
     align-items: center;
     cursor: pointer;
     padding: 0.2rem 1.8rem;
+    animation-name: none;
 }
 .faq-head h3{
     font-weight: 300;
@@ -642,12 +643,18 @@ section{
     .navbar{
         background: transparent;
         margin-top: 1.4rem;
+        
     }
+
+    /* .logoja{
+        filter: brightness(0) invert(1);
+    } */
     .navbar .container{
         display: flex;
         align-items: center;
         justify-content: space-between;
     }
+    
     .navbar-brand{
         color: var(--white-smoke);
         font-size: 2rem;
